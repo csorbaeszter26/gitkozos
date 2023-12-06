@@ -30,6 +30,7 @@ body {
     background-size: cover;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    background-color: rgb(248, 223, 200);
+    border: solid black 1px;
 }
 
 main {
@@ -39,10 +40,12 @@ main {
         "h h"
         "a n"
         "f f"; 
+    border: solid black 1px;
 }
 
 article {
     grid-area: a;
+    
 }
 
 nav {
@@ -66,18 +69,18 @@ table {
     
   }
 
-  td, th {
+td, th {
     text-align: left;
     padding: 8px;
     vertical-align:middle;
     text-align: center;
   }
 
-  tr:nth-child(even) td:nth-child(even){
+tr:nth-child(even) td:nth-child(even){
     background-color: lightgray;
   }
 
-  tr:nth-child(odd) td:nth-child(odd){
+tr:nth-child(odd) td:nth-child(odd){
     background-color: lightgray;
   }
 
@@ -111,5 +114,4 @@ th {
         grid-template-columns: 1fr; 
         gap: 5px; 
     }
-
 }
