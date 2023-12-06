@@ -45,19 +45,22 @@ main {
 
 article {
     grid-area: a;
-    
+    border: solid black 1px;
 }
 
 nav {
     grid-area: n;
+    border: solid black 1px;
 }
 
 footer {
     grid-area: f;
+    border: solid black 1px;
 }
 
 header {
     grid-area: h;
+    border: solid black 1px;
 }
 
 
