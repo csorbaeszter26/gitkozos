@@ -11,7 +11,7 @@ nav li{
     padding: 5px;
 }
 nav a:hover{
-    background-color:aquamarine;
+    background-color:rgb(217, 240, 232);
     color:black;
 }
 nav a{
@@ -28,6 +28,8 @@ body {
     max-width: 900px;
     margin: auto;
     background-size: cover;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: rgb(248, 223, 200);
 }
 
 main {
