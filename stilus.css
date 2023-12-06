@@ -51,6 +51,7 @@ article {
 nav {
     grid-area: n;
     border: solid black 1px;
+    
 }
 
 footer {
