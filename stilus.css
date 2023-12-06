@@ -29,3 +29,59 @@ footer {
 header {
     grid-area: h;
 }
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:30%;
+    margin:auto; 
+    
+  }
+
+  td, th {
+    text-align: left;
+    padding: 8px;
+    vertical-align:middle;
+    text-align: center;
+  }
+
+  tr:nth-child(even) td:nth-child(even){
+    background-color: lightgray;
+  }
+
+  tr:nth-child(odd) td:nth-child(odd){
+    background-color: lightgray;
+  }
+
+th {
+    background-color: gray;
+}
+
+
+@media only screen and (max-width: 450px) {
+    body, main {
+        font-size:12px;
+        background-size: cover;
+        width:100%;
+    }
+    main {
+        grid-template-columns:1fr; 
+        grid-template-areas: 
+            "h"
+            "n"
+            "a"
+            "f"; 
+    }
+
+    nav ul { 
+    grid-template-columns: 1fr; 
+    gap: 5px; 
+    list-style-type: none;
+    text-align: center;
+    }
+    article {
+        grid-template-columns: 1fr; 
+        gap: 5px; 
+    }
+}
